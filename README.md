@@ -1,1 +1,1 @@
-# ML_from_scratch
+# ML from scratch

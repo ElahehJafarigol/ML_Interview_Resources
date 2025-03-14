@@ -1,0 +1,89 @@
+# **🏡 Must-Know ML Models for Coding Interviews (Housing Price Prediction)**  
+To **crush ML coding interviews**, you need to know how to **build, tune, and explain** key machine learning models. Here’s a list of models to **master**, grouped by category.
+
+## **📌 1. Linear & Generalized Models**
+✅ **Used For:** Simple, interpretable, and fast models for regression & classification.
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **Linear Regression** | Regression | Fit a line to predict continuous values |
+| **Logistic Regression** | Classification | Predicts probability for binary/multi-class |
+| **Ridge & Lasso Regression** | Regression | Prevents overfitting via regularization |
+| **Polynomial Regression** | Regression | Fits curved relationships by adding polynomial terms |
+
+---
+
+## **📌 2. Tree-Based Models**
+✅ **Used For:** Capturing non-linear relationships, feature importance.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **Decision Trees** | Regression & Classification | Recursive splitting on feature values |
+| **Random Forest** | Regression & Classification | Bagging ensemble of decision trees |
+| **Gradient Boosting (GBDT)** | Regression & Classification | Iteratively improves weak learners |
+| **XGBoost / LightGBM / CatBoost** | Regression & Classification | Optimized gradient boosting libraries |
+
+---
+
+## **📌 3. Support Vector Machines (SVM)**
+✅ **Used For:** Classification & regression with margin-based decision boundaries.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **SVM (Linear Kernel)** | Classification | Maximizes margin between classes |
+| **SVM (RBF Kernel)** | Classification | Projects data into higher dimensions |
+| **SVR (Support Vector Regression)** | Regression | Similar to SVM but for continuous output |
+
+---
+
+## **📌 4. k-Nearest Neighbors (k-NN)**
+✅ **Used For:** Simple instance-based learning.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **k-NN Classifier** | Classification | Assigns label based on nearest k neighbors |
+| **k-NN Regressor** | Regression | Predicts average of k nearest neighbors |
+
+---
+
+## **📌 5. Naive Bayes**
+✅ **Used For:** Text classification & probabilistic modeling.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **Gaussian Naive Bayes** | Continuous data | Assumes normal distribution |
+| **Multinomial Naive Bayes** | Text classification | Common in NLP (e.g., spam detection) |
+| **Bernoulli Naive Bayes** | Binary features | Feature presence/absence modeling |
+
+---
+
+## **📌 6. Clustering Algorithms**
+✅ **Used For:** Unsupervised learning tasks.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **k-Means Clustering** | Segmentation | Finds `k` clusters via centroids |
+| **Hierarchical Clustering** | Segmentation | Forms a tree of clusters |
+| **DBSCAN** | Anomaly detection | Density-based clustering |
+
+---
+
+## **📌 7. Deep Learning (Neural Networks)**
+✅ **Used For:** Image, text, and sequential data.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **Multi-Layer Perceptron (MLP)** | Classification | Fully connected deep network |
+| **Convolutional Neural Networks (CNNs)** | Image classification | Extracts spatial features |
+| **Recurrent Neural Networks (RNNs, LSTMs, GRUs)** | Time-series & NLP | Captures sequential dependencies |
+| **Transformers (BERT, GPT)** | NLP | Self-attention-based models |
+
+---
+
+## **📌 8. Anomaly Detection Models**
+✅ **Used For:** Fraud detection, outlier detection.
+
+| Model | Use Case | Key Concept |
+|-------|----------|------------|
+| **Isolation Forest** | Outlier detection | Randomly partitions data |
+| **One-Class SVM** | Outlier detection | Learns decision boundary for normal data |
+| **Autoencoders** | Anomaly detection | Uses neural networks to learn normal patterns |
